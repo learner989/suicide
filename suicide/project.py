@@ -91,22 +91,29 @@ if __name__=='__main__':
     v1=int(input())
     if v1==1:
         start_time = time.time()
-        print(start_time)
         visualization(a)
         visualization(a).plotPerColumnDistribution(10, 5)
         visualization(a).plotCorrelationMatrix(8)
         visualization(a).plotScatterMatrix(1,1)
         end_time=time.time()
-        print(f"total execution time is {end_time-start_time}")
+        print(f"total execution time for age_standardized_suicide_rate data is {end_time-start_time}")
     if v1==2:
+        start_time = time.time()
         visualization(b)
         visualization(b).plotPerColumnDistribution(10, 5)
         visualization(b).plotCorrelationMatrix(8)
         visualization(b).plotScatterMatrix(1,1)
+        end_time=time.time()
+        print(f"total execution time for crude_suicide_rate data is {end_time-start_time}")
     if v1==3:
+        start_time = time.time()
         visualization(c)  
         visualization(c).plotPerColumnDistribution(10, 5)
         visualization(c).plotCorrelationMatrix(8)
         visualization(c).plotScatterMatrix(1,1)
+
+        end_time=time.time()
+        print(f"total execution time for crude_suicide_rate data is {end_time-start_time}")
+
 
 
