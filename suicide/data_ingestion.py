@@ -1,3 +1,4 @@
+print('dsvf ')
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -37,4 +38,8 @@ class data_ingestion:
         print(f'There are {df.shape[0]} rows and {df.shape[1]} columns')
         return df
 
+a=r'artifact\Age-standardized suicide rates.csv'
+
+if __name__=='__main__':
+    print(data_ingestion(a).age_suicide())
     

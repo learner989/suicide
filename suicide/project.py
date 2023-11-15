@@ -2,7 +2,7 @@ import pandas as pd
 import math
 import numpy as np
 import matplotlib.pyplot as plt
-from Health.data_ingestion import data_ingestion
+from suicide.data_ingestion import data_ingestion
 
 class visualization:
 
