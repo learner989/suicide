@@ -2,7 +2,9 @@ import pandas as pd
 import math
 import numpy as np
 import matplotlib.pyplot as plt
+import time
 from suicide.data_ingestion import data_ingestion
+
 
 class visualization:
 
@@ -88,10 +90,14 @@ if __name__=='__main__':
           see the visualization of Facilities ")
     v1=int(input())
     if v1==1:
+        start_time = time.time()
+        print(start_time)
         visualization(a)
         visualization(a).plotPerColumnDistribution(10, 5)
         visualization(a).plotCorrelationMatrix(8)
         visualization(a).plotScatterMatrix(1,1)
+        end_time=time.time()
+        print(f"total execution time is {end_time-start_time}")
     if v1==2:
         visualization(b)
         visualization(b).plotPerColumnDistribution(10, 5)
