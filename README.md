@@ -25,10 +25,10 @@ visualizations/: Stores visual representations such as scatter plots and distrib
 
 Dependencies
 Ensure you have the following dependencies installed:
-Python=3.9.12
-numpy
-matplotlib
-pandas 
+Python=3.9.12\
+numpy\
+matplotlib\
+pandas \
 seaborn
 
 Python 3.x
