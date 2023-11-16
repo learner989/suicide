@@ -1,4 +1,4 @@
-**Suicide Rates Analysis**
+***Suicide Rates Analysis***
 
 Overview
 This repository contains data and code for the analysis of suicide rates among different age groups. The project aims to explore relationships, distributions, and patterns in suicide rates to gain insights into potential risk factors.
